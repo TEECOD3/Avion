@@ -18,7 +18,7 @@ const config = {
       },
     },
     extend: {
-      font: {
+      fontSize: {
         "header-1": ["36px", "150%"],
         "header-2": ["32px", "150%"],
         "header-3": ["24px", "150%"],
