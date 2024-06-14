@@ -11,7 +11,7 @@ import {Separator} from '@/components/ui/separator';
 
 export const Navbar = () => {
   return (
-    <nav className='max-w-[1500px]  mx-auto w-full px-3 lg:px-4 flex flex-col'>
+    <nav className='max-w-[1500px]  mx-auto w-full container lg:px-4 flex flex-col'>
       <div className='flex justify-between w-full items-center py-4 '>
         <Search className='cursor-pointer hidden lg:block size-[1rem] lg:size-[1.5rem]' />
         <Link href='/'>

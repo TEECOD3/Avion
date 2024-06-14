@@ -36,7 +36,7 @@ const FilterLinks = [
 
 const FilterNav = (props: Props) => {
   return (
-    <div className='flex py-4 items-center text-[#726E8D] gap-x-6 capitalize font-satoshi'>
+    <div className='flex py-4 items-center text-light-text gap-x-6 capitalize font-satoshi'>
       {FilterLinks.map((link, index) => (
         <Link
           key={index}

@@ -13,7 +13,7 @@ const config = {
   theme: {
     container: {
       center: true,
-      padding: '2rem',
+      padding: '1rem',
       screens: {
         '2xl': '1400px',
       },
@@ -36,8 +36,10 @@ const config = {
       colors: {
         'border-dark': '#CAC6DA',
         'border-gray': '#EBE8F4',
-        'light-gray': '#4E4D93',
+        'light-gray': '#F9F9F9',
         'Dark-primary': '#2A254B',
+        black: '#22202E',
+        'light-text': '#726E8D',
         border: 'hsl(var(--border))',
         input: 'hsl(var(--input))',
         ring: 'hsl(var(--ring))',
