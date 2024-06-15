@@ -25,7 +25,7 @@ export default function RootLayout({
   return (
     <html lang='en'>
       <body
-        className={`${Satoshi.className} ${ClashDisplay.variable} font-satoshi min-h-screen flex flex-col `}
+        className={`${Satoshi.className} ${ClashDisplay.variable} font-satoshi min-h-screen flex flex-col antialiased `}
       >
         <Navbar />
         {children}

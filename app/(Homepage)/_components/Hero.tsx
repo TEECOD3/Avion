@@ -24,7 +24,7 @@ const Hero = (props: Props) => {
           </Button>
         </div>
       </div>
-      <div className='relative h-full w-full'>
+      <div className='relative h-full  w-full'>
         <Image
           className='object-cover h-full w-full object-right'
           alt='HeroImage'
