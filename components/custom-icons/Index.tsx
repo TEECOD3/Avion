@@ -3,9 +3,8 @@ import { Menu } from "lucide-react"
 import CaretDown from "./caret-down"
 import CheckmarkFilled from "./checkmark-filled"
 import CheckmarkOutline from "./checkmark-outlined"
-import Delivery from "./delivery"
-// import Delivery from "./delivery"
 import EyeIcon from "./eye-icon"
+import Delivery from "./icon-delivery"
 import LogoFacebook from "./logo-facebook"
 import LogoInstagram from "./logo-instagram"
 import LogoLinkdin from "./logo-linkedin"
@@ -34,7 +33,7 @@ export {
   LogoTwitter,
   LogoInstagram,
   EyeIcon,
-  // Delivery,
+  Delivery,
   CheckmarkOutline,
   CheckmarkFilled,
   CaretDown,
