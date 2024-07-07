@@ -82,8 +82,8 @@ importers:
         specifier: ^3.3.2
         version: 3.3.2
       prettier-plugin-tailwindcss:
-        specifier: ^0.6.4
-        version: 0.6.4(@ianvs/prettier-plugin-sort-imports@4.3.0(prettier@3.3.2))(prettier@3.3.2)
+        specifier: 0.0.0-insiders.d539a72
+        version: 0.0.0-insiders.d539a72(@ianvs/prettier-plugin-sort-imports@4.3.0(prettier@3.3.2))(prettier@3.3.2)
       pretty-quick:
         specifier: ^4.0.0
         version: 4.0.0(prettier@3.3.2)
@@ -1841,36 +1841,38 @@ packages:
     resolution: {integrity: sha512-vkcDPrRZo1QZLbn5RLGPpg/WmIQ65qoWWhcGKf/b5eplkkarX0m9z8ppCat4mlOqUsWpyNuYgO3VRyrYHSzX5g==}
     engines: {node: '>= 0.8.0'}
 
-  prettier-plugin-tailwindcss@0.6.4:
-    resolution: {integrity: sha512-3vhbIvlKyAWPaw9bUr2cw6M1BGx2Oy9CCLJyv+nxEiBGCTcL69WcAz2IFMGqx8IXSzQCInGSo2ujAByg9poHLQ==}
-    engines: {node: '>=14.21.3'}
+  prettier-plugin-tailwindcss@0.0.0-insiders.d539a72:
+    resolution: {integrity: sha512-kUcQUgMY8y/q/AzRzqJDGVMfmHDKm2R0DxMk5w0LvtYlMxKab+xjHop1bxLE1JMR3VwvEmIM2TRlAuSaZmTWzA==}
+    engines: {node: '>=12.17.0'}
     peerDependencies:
       '@ianvs/prettier-plugin-sort-imports': '*'
+      '@prettier/plugin-php': '*'
       '@prettier/plugin-pug': '*'
       '@shopify/prettier-plugin-liquid': '*'
+      '@shufo/prettier-plugin-blade': '*'
       '@trivago/prettier-plugin-sort-imports': '*'
-      '@zackad/prettier-plugin-twig-melody': '*'
-      prettier: ^3.0
+      prettier: '>=2.2.0'
       prettier-plugin-astro: '*'
       prettier-plugin-css-order: '*'
       prettier-plugin-import-sort: '*'
       prettier-plugin-jsdoc: '*'
-      prettier-plugin-marko: '*'
       prettier-plugin-organize-attributes: '*'
       prettier-plugin-organize-imports: '*'
-      prettier-plugin-sort-imports: '*'
       prettier-plugin-style-order: '*'
       prettier-plugin-svelte: '*'
+      prettier-plugin-twig-melody: '*'
     peerDependenciesMeta:
       '@ianvs/prettier-plugin-sort-imports':
+        optional: true
+      '@prettier/plugin-php':
         optional: true
       '@prettier/plugin-pug':
         optional: true
       '@shopify/prettier-plugin-liquid':
         optional: true
-      '@trivago/prettier-plugin-sort-imports':
+      '@shufo/prettier-plugin-blade':
         optional: true
-      '@zackad/prettier-plugin-twig-melody':
+      '@trivago/prettier-plugin-sort-imports':
         optional: true
       prettier-plugin-astro:
         optional: true
@@ -1880,17 +1882,15 @@ packages:
         optional: true
       prettier-plugin-jsdoc:
         optional: true
-      prettier-plugin-marko:
-        optional: true
       prettier-plugin-organize-attributes:
         optional: true
       prettier-plugin-organize-imports:
         optional: true
-      prettier-plugin-sort-imports:
-        optional: true
       prettier-plugin-style-order:
         optional: true
       prettier-plugin-svelte:
+        optional: true
+      prettier-plugin-twig-melody:
         optional: true
 
   prettier@3.3.2:
@@ -4274,7 +4274,7 @@ snapshots:
 
   prelude-ls@1.2.1: {}
 
-  prettier-plugin-tailwindcss@0.6.4(@ianvs/prettier-plugin-sort-imports@4.3.0(prettier@3.3.2))(prettier@3.3.2):
+  prettier-plugin-tailwindcss@0.0.0-insiders.d539a72(@ianvs/prettier-plugin-sort-imports@4.3.0(prettier@3.3.2))(prettier@3.3.2):
     dependencies:
       prettier: 3.3.2
     optionalDependencies:
