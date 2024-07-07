@@ -1,101 +1,102 @@
-import type {Config} from 'tailwindcss';
-import {Satoshi} from './lib/Font';
+import type { Config } from "tailwindcss"
+
+import { Satoshi } from "./lib/Font"
 
 const config = {
-  darkMode: ['class'],
+  darkMode: ["class"],
   content: [
-    './pages/**/*.{ts,tsx}',
-    './components/**/*.{ts,tsx}',
-    './app/**/*.{ts,tsx}',
-    './src/**/*.{ts,tsx}',
+    "./pages/**/*.{ts,tsx}",
+    "./components/**/*.{ts,tsx}",
+    "./app/**/*.{ts,tsx}",
+    "./src/**/*.{ts,tsx}",
   ],
-  prefix: '',
+  prefix: "",
   theme: {
     container: {
       center: true,
-      padding: '1rem',
+      padding: "1rem",
       screens: {
-        '2xl': '1400px',
+        "2xl": "1400px",
       },
     },
     extend: {
       fontFamily: {
-        'clash-display': 'var(--font-clash-display)',
-        Satoshi: 'var(--font-satoshi)',
+        "clash-display": "var(--font-clash-display)",
+        Satoshi: "var(--font-satoshi)",
       },
       fontSize: {
-        'header-1': ['36px', '150%'],
-        'header-2': ['32px', '150%'],
-        'header-3': ['24px', '150%'],
-        'header-4': ['20px', '150%'],
-        'header-5': ['16px', '150%'],
-        'body-small': ['14px', '150%'],
-        'body-medium': ['16px', '150%'],
-        'body-large': ['16px', '150%'],
+        "header-1": ["36px", "150%"],
+        "header-2": ["32px", "150%"],
+        "header-3": ["24px", "150%"],
+        "header-4": ["20px", "150%"],
+        "header-5": ["16px", "150%"],
+        "body-small": ["14px", "150%"],
+        "body-medium": ["16px", "150%"],
+        "body-large": ["16px", "150%"],
       },
       colors: {
-        'border-dark': '#CAC6DA',
-        'border-gray': '#EBE8F4',
-        'light-gray': '#F9F9F9',
-        'Dark-primary': '#2A254B',
-        black: '#22202E',
-        'light-text': '#726E8D',
-        border: 'hsl(var(--border))',
-        input: 'hsl(var(--input))',
-        ring: 'hsl(var(--ring))',
-        background: 'hsl(var(--background))',
-        foreground: 'hsl(var(--foreground))',
+        "border-dark": "#CAC6DA",
+        "border-gray": "#EBE8F4",
+        "light-gray": "#F9F9F9",
+        "dark-primary": "#2A254B",
+        black: "#22202E",
+        "light-text": "#726E8D",
+        border: "hsl(var(--border))",
+        input: "hsl(var(--input))",
+        ring: "hsl(var(--ring))",
+        background: "hsl(var(--background))",
+        foreground: "hsl(var(--foreground))",
         primary: {
-          DEFAULT: '#4E4D93',
-          foreground: 'hsl(var(--primary-foreground))',
+          DEFAULT: "#4E4D93",
+          foreground: "hsl(var(--primary-foreground))",
         },
         secondary: {
-          DEFAULT: 'hsl(var(--secondary))',
-          foreground: 'hsl(var(--secondary-foreground))',
+          DEFAULT: "hsl(var(--secondary))",
+          foreground: "hsl(var(--secondary-foreground))",
         },
         destructive: {
-          DEFAULT: 'hsl(var(--destructive))',
-          foreground: 'hsl(var(--destructive-foreground))',
+          DEFAULT: "hsl(var(--destructive))",
+          foreground: "hsl(var(--destructive-foreground))",
         },
         muted: {
-          DEFAULT: 'hsl(var(--muted))',
-          foreground: 'hsl(var(--muted-foreground))',
+          DEFAULT: "hsl(var(--muted))",
+          foreground: "hsl(var(--muted-foreground))",
         },
         accent: {
-          DEFAULT: 'hsl(var(--accent))',
-          foreground: 'hsl(var(--accent-foreground))',
+          DEFAULT: "hsl(var(--accent))",
+          foreground: "hsl(var(--accent-foreground))",
         },
         popover: {
-          DEFAULT: 'hsl(var(--popover))',
-          foreground: 'hsl(var(--popover-foreground))',
+          DEFAULT: "hsl(var(--popover))",
+          foreground: "hsl(var(--popover-foreground))",
         },
         card: {
-          DEFAULT: 'hsl(var(--card))',
-          foreground: 'hsl(var(--card-foreground))',
+          DEFAULT: "hsl(var(--card))",
+          foreground: "hsl(var(--card-foreground))",
         },
       },
       borderRadius: {
-        lg: 'var(--radius)',
-        md: 'calc(var(--radius) - 2px)',
-        sm: 'calc(var(--radius) - 4px)',
+        lg: "var(--radius)",
+        md: "calc(var(--radius) - 2px)",
+        sm: "calc(var(--radius) - 4px)",
       },
       keyframes: {
-        'accordion-down': {
-          from: {height: '0'},
-          to: {height: 'var(--radix-accordion-content-height)'},
+        "accordion-down": {
+          from: { height: "0" },
+          to: { height: "var(--radix-accordion-content-height)" },
         },
-        'accordion-up': {
-          from: {height: 'var(--radix-accordion-content-height)'},
-          to: {height: '0'},
+        "accordion-up": {
+          from: { height: "var(--radix-accordion-content-height)" },
+          to: { height: "0" },
         },
       },
       animation: {
-        'accordion-down': 'accordion-down 0.2s ease-out',
-        'accordion-up': 'accordion-up 0.2s ease-out',
+        "accordion-down": "accordion-down 0.2s ease-out",
+        "accordion-up": "accordion-up 0.2s ease-out",
       },
     },
   },
-  plugins: [require('tailwindcss-animate')],
-} satisfies Config;
+  plugins: [require("tailwindcss-animate")],
+} satisfies Config
 
-export default config;
+export default config

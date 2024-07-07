@@ -1,11 +1,15 @@
-import BrandCore from './_components/BrandCore';
-import Hero from './_components/Hero';
+import BrandCore from "./_components/brand-core"
+import Hero from "./_components/Hero"
+import MoreCollection from "./_components/more-collections"
+import Newceramics from "./_components/new-ceramics"
 
 export default function Home() {
   return (
     <>
       <Hero />
       <BrandCore />
+      <Newceramics />
+      <MoreCollection />
     </>
-  );
+  )
 }

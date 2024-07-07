@@ -4,8 +4,9 @@ import "./globals.css"
 
 import { siteConfig } from "@/config/site"
 import { ClashDisplay, Satoshi } from "@/lib/Font"
-// import { Footer } from "@/components/Layouts/footer"
 import { Navbar } from "@/components/Layouts/main-navbar/Navbar"
+import { Footer } from "@/components/Layouts/site-footer"
+import NewsLetter from "@/components/news-letter"
 
 export const metadata: Metadata = {
   title: {
@@ -31,7 +32,8 @@ export default function RootLayout({
       >
         <Navbar />
         {children}
-        {/* <Footer /> */}
+        <NewsLetter />
+        <Footer />
       </body>
     </html>
   )
