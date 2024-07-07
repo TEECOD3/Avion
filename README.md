@@ -1,6 +1,6 @@
 # Avion Ecommerce
 
-<!-- An  application built using the Nextjs and some other cool Tools
+An application built using the Nextjs and some other cool Tools
 
 ## About this project
 
@@ -39,4 +39,4 @@ pnpm dev
 
 ## License
 
-Licensed under the [MIT license](https://github.com/...). -->
+Licensed under the [MIT license](https://github.com/...).
