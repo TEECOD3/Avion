@@ -1,21 +1,21 @@
-import CaretDown from './CaretDown';
-import CheckmarkFilled from './CheckmarkFilled';
-import CheckmarkOutline from './CheckmarkOutline';
-import Delivery from './Delivery';
-import EyeIcon from './EyeIcon';
-import LogoFacebook from './LogoFacebook';
-import LogoInstagram from './LogoInstagram';
-import LogoLinkdin from './LogoLinkdin';
-import LogoSkype from './LogoSkype';
-import LogoPintrest from './LogoPinterest';
-import LogoTwitter from './LogoTwitter';
-import Menu from './Menu';
-import Search from './Search';
-import ShoppingCart from './ShopingCart';
-import SpinnersBouncingBall from './SpinnersBouncingBall';
-import SpinnersTadpole from './SpinnersTadpole';
-import SproutIcon from './SproutIcon';
-import UserAvatar from './UserAvatar';
+import CaretDown from "./caret-down"
+import CheckmarkFilled from "./checkmark-filled"
+import CheckmarkOutline from "./checkmark-outlined"
+import Delivery from "./delivery"
+import EyeIcon from "./eye-icon"
+import LogoFacebook from "./logo-facebook"
+import LogoInstagram from "./logo-instagram"
+import LogoLinkdin from "./logo-linkedin"
+import LogoPintrest from "./logo-pintrest"
+import LogoSkype from "./logo-skype"
+import LogoTwitter from "./logo-twitter"
+import Menu from "./menu"
+import Search from "./serach"
+import ShoppingCart from "./shopping-cart"
+import SpinnersBouncingBall from "./spinners-bouncing-ball"
+import SpinnersTadpole from "./spinners-tadpole"
+import SproutIcon from "./sprout-icon"
+import UserAvatar from "./user-avatar"
 
 export {
   UserAvatar,
@@ -36,4 +36,4 @@ export {
   CheckmarkOutline,
   CheckmarkFilled,
   CaretDown,
-};
+}
