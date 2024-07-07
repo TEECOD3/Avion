@@ -4,7 +4,7 @@ import "./globals.css"
 
 import { siteConfig } from "@/config/site"
 import { ClashDisplay, Satoshi } from "@/lib/Font"
-import { Footer } from "@/components/Layouts/footer"
+// import { Footer } from "@/components/Layouts/footer"
 import { Navbar } from "@/components/Layouts/main-navbar/Navbar"
 
 export const metadata: Metadata = {
