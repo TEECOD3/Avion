@@ -1,7 +1,9 @@
+import { Menu } from "lucide-react"
+
 import CaretDown from "./caret-down"
 import CheckmarkFilled from "./checkmark-filled"
 import CheckmarkOutline from "./checkmark-outlined"
-import Delivery from "./delivery"
+// import Delivery from "./delivery"
 import EyeIcon from "./eye-icon"
 import LogoFacebook from "./logo-facebook"
 import LogoInstagram from "./logo-instagram"
@@ -9,7 +11,6 @@ import LogoLinkdin from "./logo-linkedin"
 import LogoPintrest from "./logo-pintrest"
 import LogoSkype from "./logo-skype"
 import LogoTwitter from "./logo-twitter"
-import Menu from "./menu"
 import Search from "./serach"
 import ShoppingCart from "./shopping-cart"
 import SpinnersBouncingBall from "./spinners-bouncing-ball"
@@ -32,7 +33,7 @@ export {
   LogoTwitter,
   LogoInstagram,
   EyeIcon,
-  Delivery,
+  // Delivery,
   CheckmarkOutline,
   CheckmarkFilled,
   CaretDown,
