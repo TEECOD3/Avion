@@ -1,10 +1,9 @@
-import { Menu } from "lucide-react"
-
 import CaretDown from "./caret-down"
 import CheckmarkFilled from "./checkmark-filled"
 import CheckmarkOutline from "./checkmark-outlined"
 import EyeIcon from "./eye-icon"
 import Delivery from "./icon-delivery"
+import Menu from "./icon-menu"
 import LogoFacebook from "./logo-facebook"
 import LogoInstagram from "./logo-instagram"
 import LogoLinkdin from "./logo-linkedin"
