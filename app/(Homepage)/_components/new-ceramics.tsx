@@ -4,11 +4,9 @@ import Link from "next/link"
 
 import { cn } from "@/lib/utils"
 import { buttonVariants } from "@/components/ui/button"
-import ProductCard from "@/components/ui/product-card"
+import ProductCard from "@/components/product-card"
 
-type Props = {}
-
-const Newceramics = (props: Props) => {
+const Newceramics = () => {
   return (
     <section className="container mx-auto pb-10">
       <div className="w-full">

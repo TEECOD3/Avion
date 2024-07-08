@@ -1,5 +1,6 @@
 import React from "react"
 import Image from "next/image"
+import productsampleimage from "@/public/assets/Images/light.png"
 
 type Props = {}
 
@@ -8,7 +9,7 @@ const ProductCard = (props: Props) => {
     <div className="w-full h-[288px] lg:h-[462px]">
       <Image
         className="h-[201px] lg:h-[375px]"
-        src={"/assets/images/10029.jpg"}
+        src={productsampleimage}
         alt="product image"
         height={650}
         width={650}

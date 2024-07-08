@@ -4,19 +4,19 @@ import "./globals.css"
 
 import { siteConfig } from "@/config/site"
 import { ClashDisplay, Satoshi } from "@/lib/Font"
-import { Navbar } from "@/components/Layouts/main-navbar/Navbar"
+import { Navbar } from "@/components/Layouts/main-navbar/site-navbar"
 import { Footer } from "@/components/Layouts/site-footer"
 import NewsLetter from "@/components/news-letter"
 
 export const metadata: Metadata = {
   title: {
     default: siteConfig.name,
-    template: "%s | Avion",
+    template: `%s | ${siteConfig.name}`,
   },
   description: siteConfig.description,
   keywords: siteConfig.keyWords.join(", "),
   icons: {
-    icon: "/assets/svg/Cart.svg",
+    icon: siteConfig.icon,
   },
 }
 
@@ -28,7 +28,10 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${Satoshi.className} ${ClashDisplay.variable} font-satoshi flex min-h-screen flex-col antialiased `}
+        className={`
+        ${Satoshi.className} 
+        ${ClashDisplay.variable} 
+        font-satoshi flex min-h-screen flex-col antialiased `}
       >
         <Navbar />
         {children}

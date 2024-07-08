@@ -1,5 +1,5 @@
 import BrandCore from "./_components/brand-core"
-import Hero from "./_components/Hero"
+import Hero from "./_components/hero-section"
 import MoreCollection from "./_components/more-collections"
 import Newceramics from "./_components/new-ceramics"
 

@@ -1,19 +1,20 @@
 export const siteConfig = {
-  name: 'Avion',
+  name: "Avion",
   description:
-    'Avion - Premium Chairs, Vases, and Home Decor | Elevate Your Home with Elegant Beautifiers',
+    "Avion - Premium Chairs, Vases, and Home Decor | Elevate Your Home with Elegant Beautifiers",
   links: {
-    github: '',
+    github: "",
   },
   keyWords: [
-    'Next.js',
-    'React',
-    'Tailwind CSS',
-    'Avion',
-    'ecommerce',
-    'Developers Resources',
+    "Next.js",
+    "React",
+    "Tailwind CSS",
+    "Avion",
+    "ecommerce",
+    "Developers Resources",
     //add more Seo keywords
   ],
-};
+  icon: "/assets/svg/Cart.svg",
+}
 
-export type SiteConfig = typeof siteConfig;
+export type SiteConfig = typeof siteConfig

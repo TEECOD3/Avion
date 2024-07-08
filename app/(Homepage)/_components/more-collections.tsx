@@ -13,7 +13,7 @@ type Props = {}
 const MoreCollection = (props: Props) => {
   return (
     <section className="container mx-auto grid grid-cols-1 lg:grid-cols-2 py-20 gap-6 ">
-      <div className="px-10 lg:px-16 py-10 lg:py-16 w-full bg-dark-primary text-white flex flex-col justify-between ">
+      <div className="px-4 lg:px-16 py-10 lg:py-16 w-full bg-dark-primary text-white flex flex-col gap-y-8 justify-between ">
         <div className="space-y-6">
           <h4 className=" text-xl lg:text-3xl font-clash-display">
             It started with a small idea
