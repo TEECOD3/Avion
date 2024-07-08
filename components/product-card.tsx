@@ -16,8 +16,10 @@ const ProductCard = (props: Props) => {
         loading="eager"
       />
 
-      <div className="mt-6 lg: space-y-8 lg:space-y-10">
-        <p className="text-xl font-clash-display">The Dandy chair</p>
+      <div className="mt-3 lg:mt-6 space-y-8 lg:space-y-10">
+        <p className="text-base lg:text-xl font-clash-display">
+          The Dandy chair
+        </p>
         <span>$250</span>
       </div>
     </div>
