@@ -28,10 +28,6 @@ export const menuLinks = [
     link: "/",
   },
   {
-    label: "popular this week",
-    link: "/",
-  },
-  {
     label: "all products",
     link: "/",
   },
