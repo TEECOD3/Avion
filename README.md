@@ -13,7 +13,7 @@ This project is me trying to improve my frontend skills by building a real world
 ## Roadmap
 
 - [x] Build home page
-- [ ] Build About page
+- [ ] Build Product Detail page
 - [ ] Build shopping baskets
 - [ ] Build product listing page
 
