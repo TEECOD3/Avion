@@ -19,8 +19,8 @@ type Props = {}
 
 export const Footer = (props: Props) => {
   return (
-    <footer className="mt-auto bg-dark-primary py-16 ">
-      <div className="mb-4 grid grid-cols-1 md:grid-cols-[30rem_1fr] container text-[#FFFFFF]/50 md:gap-x-[10rem] gap-y-10">
+    <footer className="mt-auto bg-dark-primary py-16 text-[14px] lg:text-base">
+      <div className="mb-4 grid grid-cols-1 md:grid-cols-[30rem_1fr]  container text-[#FFFFFF]/50 md:gap-x-[10rem] gap-y-10">
         <div className="grid grid-cols-2 lg:flex flex-row justify-between ">
           <div className="flex flex-col gap-y-2">
             <h4 className="font-clash-display text-header-2 text-white">

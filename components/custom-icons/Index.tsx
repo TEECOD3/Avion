@@ -5,6 +5,7 @@ import CheckmarkFilled from "./checkmark-filled"
 import CheckmarkOutline from "./checkmark-outlined"
 import EyeIcon from "./eye-icon"
 import Delivery from "./icon-delivery"
+import Deliverywhite from "./icon-delivery-white"
 import Menu from "./icon-menu"
 import LogoFacebook from "./logo-facebook"
 import LogoInstagram from "./logo-instagram"
@@ -37,6 +38,7 @@ export const icons = {
   instagram: LogoInstagram,
   eyeicon: EyeIcon,
   delivery: Delivery,
+  Deliverywhite: Deliverywhite,
   checkedLight: CheckmarkOutline,
   checkedFilled: CheckmarkFilled,
   caretdown: CaretDown,
