@@ -1,8 +1,13 @@
+import { cn } from "@/lib/utils"
 import { icons } from "@/components/custom-icons/Index"
 
-const BrandCore = () => {
+const BrandCore = ({ className }: { className?: string }) => {
   return (
-    <section className="lg:p-x-20 lg:pt-20 lg:pb-10 container mx-auto max-[400px]:mt-[23rem] max-[400px]:mb-[10rem] max-sm:mt-[22rem]  max-lg:mt-[20rem]  mb-16 ">
+    <section
+      className={cn(
+        `lg:p-x-20 lg:pt-20 lg:pb-10 container mx-auto max-[400px]:mt-[23rem] max-[400px]:mb-[10rem] max-sm:mt-[22rem]  max-lg:mt-[20rem]  mb-16 ${className}`
+      )}
+    >
       <div className="w-full flex items-center lg:justify-center">
         <h4 className="max-w-xl font-clash-display text-xl lg:text-header-3 mx-auto max-lg:textleft">
           What makes our brand different

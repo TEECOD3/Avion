@@ -10,7 +10,7 @@ const Newceramics = () => {
   return (
     <section className="container mx-auto pb-10">
       <div className="w-full">
-        <h4 className="max-w-xl font-clash-display text-xl lg:text-header-3">
+        <h4 className="max-w-xl font-clash-display text-xl lg:text-header-2">
           New Ceramics
         </h4>
 
