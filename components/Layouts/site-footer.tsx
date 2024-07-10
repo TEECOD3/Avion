@@ -32,11 +32,11 @@ export const Footer = (props: Props) => {
             <p>432 34</p>
           </div>
 
-          <div className="flex flex-col justify-start">
+          <div className="flex flex-col justify-start mt-1">
             <h4 className="font-clash-display capitalize text-white ">
               social links
             </h4>
-            <ul className="flex-wrap flex mt-6 gap-x-2">
+            <ul className="flex-wrap flex mt-4 gap-x-2">
               {footerSocialsLinks.map((socialLink, idx) => (
                 <div key={idx} className="text-white/60">
                   <socialLink.icon />
