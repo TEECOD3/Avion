@@ -31,6 +31,7 @@ const page = (props: Props) => {
           </div>
         </div>
       </section>
+
       <ProductsMightLike />
       <BrandCore className="!pb-32" />
     </article>
@@ -41,7 +42,7 @@ export default page
 
 function ProductsMightLike() {
   return (
-    <section className="container mx-auto pb-10">
+    <section className="container mx-auto py-10  lg:pt-20">
       <div className="w-full">
         <h4 className="max-w-xl font-clash-display text-xl lg:text-header-2">
           You might also like
