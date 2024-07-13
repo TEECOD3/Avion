@@ -2,6 +2,8 @@ import React from "react"
 import Image from "next/image"
 import productheroimage from "@/public/assets/Images/10025.jpg"
 
+import ProductGrid from "@/components/product-grid"
+
 type Props = {}
 
 const page = (props: Props) => {
@@ -19,6 +21,17 @@ const page = (props: Props) => {
           All Products
         </div>
       </div>
+
+      <section className="my-16 container mx-auto">
+        <div className="grid grid-cols-1 lg:grid-cols-[18rem_1fr] capitalize ">
+          <div className="hidden lg:block">
+            <h4 className="font-clash-display">product type</h4>
+          </div>
+          <div className="">
+            <ProductGrid />
+          </div>
+        </div>
+      </section>
     </section>
   )
 }

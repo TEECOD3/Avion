@@ -39,7 +39,8 @@ This project is me trying to improve my frontend skills by building a real world
 - [ ] intercepting routes
 - [ ] wish List
 - [ ] payment integration using paystack, stripe and flutterwave
-- [ ] News-Letter Feature
+- [ ] News-
+- [ ] Letter Feature
 - [ ] Admin Panel
 
 ## Running Locally

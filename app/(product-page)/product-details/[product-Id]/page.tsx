@@ -9,9 +9,12 @@ import ProductCard from "@/components/product-card"
 import ProductDetailDesc from "@/components/product-detail-description"
 import BrandCore from "@/app/(Homepage)/_components/brand-core"
 
-type Props = {}
+type Props = {
+  Seaech
+}
 
 const page = (props: Props) => {
+  console.log(props)
   return (
     <article className="space-y-10 lg:space-y-16">
       <section className="w-full bg-light-gray min-h-[70vh]">
@@ -56,7 +59,7 @@ function ProductsMightLike() {
         </div>
         <div className="w-full flex justify-center">
           <Link
-            href="/"
+            href="/product-listing"
             className={cn(
               buttonVariants({ variant: "gray" }),
               "rounded-none mx-auto  max-sm:w-full"
