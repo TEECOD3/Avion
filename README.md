@@ -16,6 +16,18 @@ This project is me trying to improve my frontend skills by building a real world
 - [ ] Build Product Detail page
 - [ ] Build shopping baskets
 - [ ] Build product listing page
+- [ ] Build sign in and Sign up pages
+- [ ] Authentication without third party libraries
+- [ ] Cart Logic
+- [ ] category pages
+- [ ] Advanced Search and filtering
+- [ ] partial rendering
+- [ ] parallel routes
+- [ ] intercepting routes
+- [ ] wish List
+- [ ] payment integration
+- [ ] News Letter
+- [ ] Admin Panel
 
 ## Running Locally
 
@@ -25,7 +37,7 @@ This project is me trying to improve my frontend skills by building a real world
 pnpm install
 ```
 
-2. Copy `.env.example` to `.env.local` and update the variables.
+2.  Copy `.env.example` to `.env.local` and update the variables.
 
 ```sh
 cp .env.example .env.local
