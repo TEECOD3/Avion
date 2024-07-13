@@ -24,7 +24,7 @@ const page = (props: Props) => {
               className="object-cover absolute h-full w-full"
             />
           </div>
-          <div className="w-full lg:p-16 max-lg:container max-lg:mx-auto text-[#505977]">
+          <div className="w-full py-8 lg:px-12 lg:py-10 max-lg:container max-lg:mx-auto text-[#505977]">
             <div className="lg:p-8">
               <ProductDetailDesc />
             </div>

@@ -1,4 +1,4 @@
-import { Heart, LucideProps } from "lucide-react"
+import { Heart, LucideProps, Minus, Plus } from "lucide-react"
 
 import CaretDown from "./caret-down"
 import CheckmarkFilled from "./checkmark-filled"
@@ -23,6 +23,8 @@ import UserAvatar from "./user-avatar"
 
 export const icons = {
   purchase: Purchase,
+  Plus,
+  Minus,
   user: UserAvatar,
   flower: SproutIcon,
   spinner: SpinnersBouncingBall,
