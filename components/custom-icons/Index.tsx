@@ -1,8 +1,16 @@
-import { Heart, LucideProps, Minus, Plus } from "lucide-react"
+import {
+  ArrowRight,
+  Heart,
+  LucideProps,
+  Minus,
+  Plus,
+  PlusIcon,
+} from "lucide-react"
 
 import CaretDown from "./caret-down"
 import CheckmarkFilled from "./checkmark-filled"
 import CheckmarkOutline from "./checkmark-outlined"
+import { Emptycart } from "./empty-cart"
 import EyeIcon from "./eye-icon"
 import Delivery from "./icon-delivery"
 import Deliverywhite from "./icon-delivery-white"
@@ -22,6 +30,8 @@ import SproutIcon from "./sprout-icon"
 import UserAvatar from "./user-avatar"
 
 export const icons = {
+  PlusIcon,
+  ArrowRight,
   purchase: Purchase,
   Plus,
   Minus,
@@ -45,6 +55,7 @@ export const icons = {
   checkedFilled: CheckmarkFilled,
   caretdown: CaretDown,
   love: Heart,
+  Emptycart,
   gitHub: ({ ...props }: LucideProps) => (
     <svg
       aria-hidden="true"

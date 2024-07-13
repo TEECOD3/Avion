@@ -12,7 +12,7 @@ export const Navbar = () => {
     <>
       <div className="w-full flex items-center justify-center h-[2.6rem] bg-dark-primary">
         <div className="text-white  text-[10px] lg:text-base flex items-center font-light justify-center">
-          <icons.Deliverywhite className=" mr-1" />
+          <icons.Deliverywhite className="mr-1" />
           <span>
             Free delivery on all orders over £50 with code easter checkout
           </span>
@@ -28,16 +28,19 @@ export const Navbar = () => {
           </div>
 
           <div className="hidden gap-x-4 lg:flex items-center">
-            <icons.search className="hidden size-4 cursor-pointer lg:block lg:size-6" />
+            <icons.search className="hidden  cursor-pointer lg:block size-6" />
             <Link href={"/cart-basket"}>
-              <icons.cart className="size-4 cursor-pointer lg:size-6" />
+              <icons.cart className="cursor-pointer size-6" />
             </Link>
             <icons.user className="size-4 cursor-pointer lg:size-6" />
           </div>
 
           <div className="flex gap-x-4 lg:hidden items-center">
-            <icons.search className="size-4 cursor-pointer lg:size-6" />
-            <icons.menu className="cursor-pointer lg:size-6" />
+            <icons.search className=" cursor-pointer size-6" />
+            <icons.menu className="cursor-pointer size-6" />
+            <Link href={"/cart-basket"}>
+              <icons.cart className="cursor-pointer size-6" />
+            </Link>
           </div>
         </div>
       </nav>
