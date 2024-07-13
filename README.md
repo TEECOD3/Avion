@@ -6,6 +6,15 @@ An application built using the Nextjs and some other cool Tools
 
 This project is me trying to improve my frontend skills by building a real world application, As well and implementing best practices in my learning journey
 
+## Tools/libraries/framework
+
+- Nextjs
+- Typescript
+- React-Hook-form
+- Zod
+- Redux
+- tanstack-react-query
+
 ## Features
 
 - `/app` dir,
