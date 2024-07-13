@@ -28,6 +28,7 @@ This project is me trying to improve my frontend skills by building a real world
 - [ ] Build sign in and Sign up pages
 - [ ] Build Add to wishlist page
 - [ ] Build Profile page
+- [ ] pagination
 - [ ] Build Settings Page
 - [ ] Build Checkoutpage
 - [ ] Authentication without third party libraries
