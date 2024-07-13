@@ -25,7 +25,7 @@ const NewsLetter = (props: Props) => {
           <div className="bg-muted-foreground/5 w-full flex items-center">
             <Input
               type="email"
-              className="border-none outline-none focus:border-none focus:outline-none bg-transparent text-muted "
+              className="border-none outline-none text-muted-foreground text-sm lg:text-base focus:border-none focus:outline-none bg-transparent"
               placeholder="your@gmail.com"
             />
           </div>
