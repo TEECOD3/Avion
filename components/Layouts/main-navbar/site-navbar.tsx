@@ -37,10 +37,10 @@ export const Navbar = () => {
 
           <div className="flex gap-x-4 lg:hidden items-center">
             <icons.search className=" cursor-pointer size-6" />
-            <icons.menu className="cursor-pointer size-6" />
             <Link href={"/cart-basket"}>
               <icons.cart className="cursor-pointer size-6" />
             </Link>
+            <icons.menu className="cursor-pointer size-6" />
           </div>
         </div>
       </nav>
