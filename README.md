@@ -13,11 +13,16 @@ This project is me trying to improve my frontend skills by building a real world
 ## Roadmap
 
 - [x] Build home page
-- [ ] Build Product Detail page
+- [x] Build Product Detail page
 - [ ] Build shopping baskets
 - [ ] Build product listing page
 - [ ] Build sign in and Sign up pages
+- [ ] Build Add to wishlist page
+- [ ] Build Profile page
+- [ ] Build Settings Page
+- [ ] Build Checkoutpage
 - [ ] Authentication without third party libraries
+- [ ] implement general App Search Feature
 - [ ] Cart Logic
 - [ ] category pages
 - [ ] Advanced Search and filtering
@@ -25,8 +30,8 @@ This project is me trying to improve my frontend skills by building a real world
 - [ ] parallel routes
 - [ ] intercepting routes
 - [ ] wish List
-- [ ] payment integration
-- [ ] News Letter
+- [ ] payment integration using paystack, stripe and flutterwave
+- [ ] News Letter Feature
 - [ ] Admin Panel
 
 ## Running Locally
