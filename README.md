@@ -23,7 +23,7 @@ This project is me trying to improve my frontend skills by building a real world
 
 - [x] Build home page
 - [x] Build Product Detail page
-- [ ] Build shopping baskets
+- [x] Build shopping baskets
 - [ ] Build product listing page
 - [ ] Build sign in and Sign up pages
 - [ ] Build Add to wishlist page

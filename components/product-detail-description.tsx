@@ -76,7 +76,7 @@ const ProductDetailDesc = (props: Props) => {
         <Button
           variant="blue"
           className={cn(
-            "rounded-none mx-auto capitalize max-w-max px-6 text-white/80 py-7"
+            "rounded-none mx-auto capitalize max-w-max px-6 text-white/80 py-6"
           )}
         >
           add to cart
@@ -84,7 +84,7 @@ const ProductDetailDesc = (props: Props) => {
         <Button
           variant="ghost"
           className={cn(
-            "rounded-none mx-auto capitalize max-w-max px-6 text-dark-primary bg-gray-100 py-7  hover:bg-dark-primary hover:text-white"
+            "rounded-none mx-auto capitalize max-w-max px-6 text-dark-primary bg-gray-100 py-6  hover:bg-dark-primary hover:text-white"
           )}
         >
           save to favourites

@@ -25,10 +25,10 @@ const MoreCollection = (props: Props) => {
         </div>
         <div className="w-full">
           <Link
-            href="/"
+            href="/product-listing"
             className={cn(
               buttonVariants({ variant: "gray" }),
-              "rounded-none mx-auto py-4 px-4 max-sm:w-full bg-white/20 text-white"
+              "rounded-none mx-auto py-7 max-sm:w-full bg-white/20 text-white hover:text-white"
             )}
           >
             View collection

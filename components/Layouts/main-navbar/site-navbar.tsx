@@ -14,11 +14,11 @@ export const Navbar = () => {
         <div className="text-white  text-[10px] lg:text-base flex items-center font-light justify-center">
           <icons.Deliverywhite className=" mr-1" />
           <span>
-            Free delivery on all orders over £50 with code easter checkout{" "}
+            Free delivery on all orders over £50 with code easter checkout
           </span>
         </div>
       </div>
-      <nav className="container  mx-auto flex w-full max-w-[1500px] flex-col lg:px-4">
+      <nav className="container mx-auto flex w-full  flex-col lg:px-4">
         <div className="flex w-full items-center justify-between py-4 ">
           <Link href="/">
             <h1 className="text-header-3 font-clash-display">Avion</h1>
@@ -29,7 +29,9 @@ export const Navbar = () => {
 
           <div className="hidden gap-x-4 lg:flex items-center">
             <icons.search className="hidden size-4 cursor-pointer lg:block lg:size-6" />
-            <icons.cart className="size-4 cursor-pointer lg:size-6" />
+            <Link href={"/cart-basket"}>
+              <icons.cart className="size-4 cursor-pointer lg:size-6" />
+            </Link>
             <icons.user className="size-4 cursor-pointer lg:size-6" />
           </div>
 

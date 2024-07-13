@@ -22,6 +22,7 @@ const page = (props: Props) => {
               alt="product-detail-image"
               fill
               className="object-cover absolute h-full w-full"
+              placeholder="blur"
             />
           </div>
           <div className="w-full py-8 lg:px-12 lg:py-10 max-lg:container max-lg:mx-auto text-[#505977]">

@@ -1,4 +1,7 @@
+"use client"
+
 import React from "react"
+import { usePathname } from "next/navigation"
 
 import { cn } from "@/lib/utils"
 
@@ -8,6 +11,9 @@ import { Input } from "./ui/input"
 type Props = {}
 
 const NewsLetter = (props: Props) => {
+  const pathname = usePathname()
+
+  if (pathname === "/cart-basket") return null
   return (
     <section className="bg-light-gray py-20 flex items-center justify-center">
       <div className="container py-10 bg-white ">
@@ -31,7 +37,7 @@ const NewsLetter = (props: Props) => {
           </div>
           <Button
             variant="blue"
-            className={cn("rounded-none mx-auto  w-[30%] text-white/60 py-7")}
+            className={cn("rounded-none mx-auto  w-[30%] text-white py-7")}
           >
             Sign Up
           </Button>

@@ -1,8 +1,10 @@
 import React from "react"
 import Image from "next/image"
+import Link from "next/link"
 import HeroImage from "@/public/assets/Images/anthony-tran-vXymirxr5ac-unsplash.jpg"
 
-import { Button } from "@/components/ui/button"
+import { cn } from "@/lib/utils"
+import { Button, buttonVariants } from "@/components/ui/button"
 
 type Props = {}
 
@@ -48,9 +50,15 @@ const Hero = (props: Props) => {
           <p className="text-light-text mt-6">
             Shop the new Spring 2022 collection today
           </p>
-          <Button variant="gray" className="absolute bottom-0">
+          <Link
+            href="/product-listing"
+            className={cn(
+              buttonVariants({ variant: "gray" }),
+              "absolute bottom-0"
+            )}
+          >
             View Collection
-          </Button>
+          </Link>
         </div>
       </div>
     </section>

@@ -21,10 +21,10 @@ const Newceramics = () => {
         </div>
         <div className="w-full flex justify-center">
           <Link
-            href="/"
+            href="/product-listing"
             className={cn(
               buttonVariants({ variant: "gray" }),
-              "rounded-none mx-auto  max-sm:w-full"
+              "rounded-none mx-auto  max-sm:w-full !p-7"
             )}
           >
             View collection
