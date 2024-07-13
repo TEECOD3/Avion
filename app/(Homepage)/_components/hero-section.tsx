@@ -22,9 +22,16 @@ const Hero = (props: Props) => {
           <p className="text-light-text mt-6">
             Shop the new Spring 2022 collection today
           </p>
-          <Button className="bg-light-gray text-light-text hover:bg-light-text/20 mt-10 w-full p-6 transition duration-300 ease-out hover:text-gray-600">
+
+          <Link
+            href="/product-listing"
+            className={cn(
+              buttonVariants({ variant: "gray" }),
+              "bg-light-gray text-light-text hover:bg-light-text/20 mt-10 w-full p-6 transition duration-300 ease-out hover:text-gray-600"
+            )}
+          >
             View Collection
-          </Button>
+          </Link>
         </div>
       </div>
       <div className="relative size-full">
