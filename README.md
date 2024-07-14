@@ -21,14 +21,18 @@ This project is me trying to improve my frontend skills by building a real world
 
 ## Roadmap
 
+### design
+
 - [x] Build home page
 - [x] Build Product Detail page
 - [x] Build shopping baskets
-- [ ] Build product listing page
+- [x] Build product listing page
 - [ ] Build sign in and Sign up pages
 - [ ] Build Add to wishlist page
+
+### functionality
+
 - [ ] pagination
-- [ ] Build Checkoutpage
 - [ ] Authentication without third party libraries
 - [ ] implement general App Search Feature
 - [ ] Cart Logic
