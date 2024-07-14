@@ -1,7 +1,8 @@
 "use client"
 
 import React from "react"
-import { useSearchParams } from "next/navigation"
+
+// import { useSearchParams } from "next/navigation"
 
 import { filteroptions } from "@/config/product"
 

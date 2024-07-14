@@ -1,19 +1,19 @@
 "use client"
 
-import { use } from "react"
 import Link from "next/link"
-import { useSearchParams } from "next/navigation"
+
+// import { useSearchParams } from "next/navigation"
 
 import { icons } from "@/components/custom-icons/Index"
 
 import FilterNav from "./filter-nav"
 
 export const Navbar = () => {
-  const searchparams = useSearchParams()
-  console.log(searchparams.get("search"))
-  console.log(searchparams.entries())
-  const searchvalues = Array.from(searchparams.entries())
-  console.log(searchvalues)
+  // const searchparams = useSearchParams()
+  // console.log(searchparams.get("search"))
+  // console.log(searchparams.entries())
+  // const searchvalues = Array.from(searchparams.entries())
+  // console.log(searchvalues)
   return (
     <>
       <div className="w-full flex items-center justify-center h-[2.6rem] bg-dark-primary">
