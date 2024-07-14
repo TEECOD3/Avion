@@ -1,10 +1,9 @@
-import React from "react"
 import Image from "next/image"
 import Link from "next/link"
 import HeroImage from "@/public/assets/Images/anthony-tran-vXymirxr5ac-unsplash.jpg"
 
 import { cn } from "@/lib/utils"
-import { Button, buttonVariants } from "@/components/ui/button"
+import { buttonVariants } from "@/components/ui/button"
 
 type Props = {}
 

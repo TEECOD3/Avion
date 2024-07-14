@@ -15,7 +15,7 @@ const Newceramics = () => {
         </h4>
 
         <div className="my-6 grid grid-cols-2 lg:grid-cols-4 gap-x-5">
-          {[1, 2, 4, 5].map((product, idx) => (
+          {Array.from({ length: 4 }).map((product, idx) => (
             <ProductCard key={idx} />
           ))}
         </div>
