@@ -11,7 +11,7 @@ import { Label } from "./ui/label"
 type Props = {}
 
 const ProductFilter = (props: Props) => {
-  const searchparams = useSearchParams()
+  // const searchparams = useSearchParams()
   return (
     <form className="space-y-6">
       {filteroptions.map((options, optionsidx) => (

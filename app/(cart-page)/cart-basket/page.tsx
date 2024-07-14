@@ -10,7 +10,7 @@ import QuantityButton from "@/components/quantity-buttons"
 type Props = {}
 
 const page = (props: Props) => {
-  const productArr = [1]
+  const productArr = Array.from({ length: 3 })
 
   return (
     <section className="bg-light-gray min-h-[70vh]">
