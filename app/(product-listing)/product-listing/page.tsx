@@ -1,7 +1,11 @@
+"use client"
+
 import React from "react"
 import Image from "next/image"
 import productheroimage from "@/public/assets/Images/10025.jpg"
 
+import { Checkbox } from "@/components/ui/checkbox"
+import ProductFilter from "@/components/product-filter"
 import ProductGrid from "@/components/product-grid"
 
 type Props = {}
@@ -25,7 +29,7 @@ const page = (props: Props) => {
       <section className="my-16 container mx-auto">
         <div className="grid grid-cols-1 lg:grid-cols-[18rem_1fr] capitalize ">
           <div className="hidden lg:block">
-            <h4 className="font-clash-display">product type</h4>
+            <ProductFilter />
           </div>
           <div className="">
             <ProductGrid />

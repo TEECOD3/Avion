@@ -1,4 +1,3 @@
-import React from "react"
 import Image from "next/image"
 import Link from "next/link"
 import image from "@/public/assets/Images/10030.jpg"
@@ -9,12 +8,9 @@ import ProductCard from "@/components/product-card"
 import ProductDetailDesc from "@/components/product-detail-description"
 import BrandCore from "@/app/(Homepage)/_components/brand-core"
 
-type Props = {
-  Seaech
-}
+type Props = {}
 
 const page = (props: Props) => {
-  console.log(props)
   return (
     <article className="space-y-10 lg:space-y-16">
       <section className="w-full bg-light-gray min-h-[70vh]">

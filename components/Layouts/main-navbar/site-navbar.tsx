@@ -1,13 +1,19 @@
 "use client"
 
+import { use } from "react"
 import Link from "next/link"
+import { useSearchParams } from "next/navigation"
 
-import { Separator } from "@/components/ui/separator"
 import { icons } from "@/components/custom-icons/Index"
 
 import FilterNav from "./filter-nav"
 
 export const Navbar = () => {
+  const searchparams = useSearchParams()
+  console.log(searchparams.get("search"))
+  console.log(searchparams.entries())
+  const searchvalues = Array.from(searchparams.entries())
+  console.log(searchvalues)
   return (
     <>
       <div className="w-full flex items-center justify-center h-[2.6rem] bg-dark-primary">
@@ -20,7 +26,7 @@ export const Navbar = () => {
       </div>
       <nav className="container mx-auto flex w-full  flex-col lg:px-4">
         <div className="flex w-full items-center justify-between py-4 ">
-          <Link href="/">
+          <Link href="/?search=tee&product=yeezy&category=shoes">
             <h1 className="text-header-3 font-clash-display">Avion</h1>
           </Link>
           <div className="mx-auto hidden max-w-[60%] lg:block">
