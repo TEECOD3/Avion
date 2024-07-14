@@ -1,6 +1,7 @@
 "use client"
 
 import React from "react"
+import { useSearchParams } from "next/navigation"
 
 import { filteroptions } from "@/config/product"
 
@@ -10,6 +11,7 @@ import { Label } from "./ui/label"
 type Props = {}
 
 const ProductFilter = (props: Props) => {
+  const searchparams = useSearchParams()
   return (
     <form className="space-y-6">
       {filteroptions.map((options, optionsidx) => (
@@ -19,9 +21,14 @@ const ProductFilter = (props: Props) => {
           </h4>
           <div className="flex flex-col gap-y-4 ">
             {options.options.map((choice, choiceidx) => (
-              <div key={choiceidx} className="flex gap-x-2 items-center ">
-                <Checkbox />
-                <Label className="text-dark-primary">{choice.label}</Label>
+              <div key={choiceidx} className="flex gap-x-2 items-center  ">
+                <Checkbox id={`filter-${options.id}-${choiceidx}`} />
+                <Label
+                  className="text-dark-primary cursor-pointer"
+                  htmlFor={`filter-${options.id}-${choiceidx}`}
+                >
+                  {choice.label}
+                </Label>
               </div>
             ))}
           </div>
