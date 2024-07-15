@@ -14,6 +14,8 @@ This project is me trying to improve my frontend skills by building a real world
 - Zod
 - Redux
 - tanstack-react-query
+- json server for mock data
+- json server auth for mock authentication
 
 ## Features
 
@@ -21,7 +23,7 @@ This project is me trying to improve my frontend skills by building a real world
 
 ## Roadmap
 
-### design
+### Design
 
 - [x] Build home page
 - [x] Build Product Detail page
@@ -29,6 +31,7 @@ This project is me trying to improve my frontend skills by building a real world
 - [x] Build product listing page
 - [ ] Build sign in and Sign up pages
 - [ ] Build Add to wishlist page
+- [ ] Build Checkoutpage
 
 ### functionality
 
@@ -41,7 +44,7 @@ This project is me trying to improve my frontend skills by building a real world
 - [ ] partial rendering
 - [ ] parallel routes
 - [ ] intercepting routes
-- [ ] wish List
+- [ ] wishList Logic
 - [ ] payment integration using paystack, stripe and flutterwave
 - [ ] News-
 - [ ] Letter Feature
