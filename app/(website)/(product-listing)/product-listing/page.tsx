@@ -3,6 +3,8 @@ import productheroimage from "@/public/assets/Images/10025.jpg"
 
 import ProductFilter from "@/components/product-filter"
 import ProductGrid from "@/components/product-grid"
+import ProductMobileFilter from "@/components/product-mobile-filter"
+import ProductSort from "@/components/product-sort"
 
 type Props = {}
 
@@ -28,6 +30,11 @@ const page = (props: Props) => {
             <ProductFilter />
           </div>
           <div className="">
+            <div className="w-full flex lg:justify-end justify-between px-1">
+              <ProductSort />
+              <ProductMobileFilter />
+            </div>
+
             <ProductGrid />
           </div>
         </div>

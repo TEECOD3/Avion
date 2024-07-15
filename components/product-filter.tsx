@@ -17,7 +17,7 @@ const ProductFilter = (props: Props) => {
     <form className="space-y-6">
       {filteroptions.map((options, optionsidx) => (
         <div key={optionsidx} className="space-y-6">
-          <h4 className="text-dark-primary font-clash-display">
+          <h4 className="text-dark-primary font-clash-display capitalize">
             {options.name}
           </h4>
           <div className="flex flex-col gap-y-4 ">

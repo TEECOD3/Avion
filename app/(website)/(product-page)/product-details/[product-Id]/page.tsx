@@ -6,7 +6,7 @@ import { cn } from "@/lib/utils"
 import { buttonVariants } from "@/components/ui/button"
 import ProductCard from "@/components/product-card"
 import ProductDetailDesc from "@/components/product-detail-description"
-import BrandCore from "@/app/(Homepage)/_components/brand-core"
+import BrandCore from "@/app/(website)/(Homepage)/_components/brand-core"
 
 type Props = {}
 

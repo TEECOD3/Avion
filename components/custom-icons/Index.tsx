@@ -1,5 +1,6 @@
 import {
   ArrowRight,
+  Filter,
   Heart,
   LucideProps,
   Minus,
@@ -30,6 +31,7 @@ import SproutIcon from "./sprout-icon"
 import UserAvatar from "./user-avatar"
 
 export const icons = {
+  Filter,
   PlusIcon,
   ArrowRight,
   purchase: Purchase,

@@ -29,9 +29,12 @@ This project is me trying to improve my frontend skills by building a real world
 - [x] Build Product Detail page
 - [x] Build shopping baskets
 - [x] Build product listing page
+- [ ] intercepting route for settings and profile pages
+- [ ] Build menu navigation
+- [ ] Build search modal
 - [ ] Build sign in and Sign up pages
 - [ ] Build Add to wishlist page
-- [ ] Build Checkoutpage
+- [ ] miscellaneous -build about page
 
 ### functionality
 
@@ -41,13 +44,9 @@ This project is me trying to improve my frontend skills by building a real world
 - [ ] Cart Logic
 - [ ] category pages
 - [ ] Advanced Search and filtering
-- [ ] partial rendering
-- [ ] parallel routes
-- [ ] intercepting routes
 - [ ] wishList Logic
 - [ ] payment integration using paystack, stripe and flutterwave
-- [ ] News-
-- [ ] Letter Feature
+- [ ] News-Letter Feature
 - [ ] Admin Panel
 
 ## Running Locally
