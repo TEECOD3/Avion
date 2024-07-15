@@ -3,7 +3,6 @@
 import Link from "next/link"
 
 // import { useSearchParams } from "next/navigation"
-
 import { icons } from "@/components/custom-icons/Index"
 
 import FilterNav from "./filter-nav"
