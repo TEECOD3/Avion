@@ -12,7 +12,7 @@ const page = (props: Props) => {
   return (
     <div>
       <Tabs defaultValue="account" className="w-full px-0">
-        <TabsList className="w-[60%]">
+        <TabsList className="lg:w-[60%]">
           <TabsTrigger
             value="account"
             className="w-full font-clash-display capitalize"
