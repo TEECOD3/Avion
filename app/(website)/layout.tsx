@@ -19,8 +19,8 @@ export default function WebsiteLayout({
         font-satoshi flex min-h-screen flex-col antialiased `}
       >
         <Navbar />
-        {modal}
         {children}
+        {modal}
         <NewsLetter />
         <Footer />
       </body>
