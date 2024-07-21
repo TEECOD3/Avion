@@ -17,11 +17,8 @@ export default function WebsiteLayout({
         ${ClashDisplay.variable}
         font-satoshi flex min-h-screen flex-col antialiased `}
     >
-      <Navbar />
-      {children}
       {modal}
-      <NewsLetter />
-      <Footer />
+      {children}
     </section>
   )
 }

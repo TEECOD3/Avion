@@ -1,7 +1,7 @@
 export const Profilelinks = [
   {
     label: "My Avion account",
-    link: "/profile",
+    link: "/profile/my-avion-account",
     desc: "update your avion profile",
   },
   {

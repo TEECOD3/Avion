@@ -1,13 +1,13 @@
 import ProfileHeader from "@/components/profile-header"
 import ProfileNavMenu from "@/components/profile-nav-menu"
 
-export default function AuthLayout({
+export default function ProfileLayout({
   children,
 }: {
   children: React.ReactNode
 }) {
   return (
-    <main className=" container mx-auto">
+    <section className=" container mx-auto">
       <div className="max-w-4xl mx-auto py-10">
         <ProfileHeader />
         <div className="grid grid-cols-1 lg:grid-cols-[16rem_1fr]  py-10">
@@ -19,6 +19,6 @@ export default function AuthLayout({
           </div>
         </div>
       </div>
-    </main>
+    </section>
   )
 }
