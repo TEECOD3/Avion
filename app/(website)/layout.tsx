@@ -11,19 +11,17 @@ export default function WebsiteLayout({
   modal: React.ReactNode
 }>) {
   return (
-    <html lang="en">
-      <body
-        className={`
+    <section
+      className={`
         ${Satoshi.className}
         ${ClashDisplay.variable}
         font-satoshi flex min-h-screen flex-col antialiased `}
-      >
-        <Navbar />
-        {children}
-        {modal}
-        <NewsLetter />
-        <Footer />
-      </body>
-    </html>
+    >
+      <Navbar />
+      {children}
+      {modal}
+      <NewsLetter />
+      <Footer />
+    </section>
   )
 }
