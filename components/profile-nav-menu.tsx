@@ -34,7 +34,7 @@ const ProfileNavMenu = (props: Props) => {
           </SelectTrigger>
           <SelectContent>
             {Profilelinks.map((sort, sortidx) => (
-              <SelectItem value={sort.link} key={sortidx}>
+              <SelectItem value={sort.link} key={sortidx} className="text-base">
                 {sort.label}
               </SelectItem>
             ))}

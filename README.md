@@ -29,12 +29,11 @@ This project is me trying to improve my frontend skills by building a real world
 - [x] Build Product Detail page
 - [x] Build shopping baskets
 - [x] Build product listing page
-- [ ] intercepting route for product detail
 - [x] profile and setting page
 - [ ] Build menu navigation
 - [ ] Build search modal
 - [ ] Build sign in and Sign up pages
-- [ ] Build Add to wishlist page
+- [ ] Build Add to order page
 - [ ] miscellaneous -build about page
 
 ### functionality
