@@ -33,10 +33,7 @@ export default function RootLayout({
         ${ClashDisplay.variable}
         font-satoshi flex min-h-screen flex-col antialiased `}
       >
-        <Navbar />
         {children}
-        <NewsLetter />
-        <Footer />
       </body>
     </html>
   )
