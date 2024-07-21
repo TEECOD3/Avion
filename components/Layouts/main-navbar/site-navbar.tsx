@@ -8,11 +8,7 @@ import { icons } from "@/components/custom-icons/Index"
 import FilterNav from "./filter-nav"
 
 export const Navbar = () => {
-  // const searchparams = useSearchParams()
-  // console.log(searchparams.get("search"))
-  // console.log(searchparams.entries())
-  // const searchvalues = Array.from(searchparams.entries())
-  // console.log(searchvalues)
+  const loggedin = true
   return (
     <>
       <div className="w-full flex items-center justify-center h-[2.6rem] bg-dark-primary">
@@ -25,7 +21,7 @@ export const Navbar = () => {
       </div>
       <nav className="container mx-auto flex w-full  flex-col lg:px-4">
         <div className="flex w-full items-center justify-between py-4 ">
-          <Link href="/?search=tee&product=yeezy&category=shoes">
+          <Link href="/">
             <h1 className="text-header-3 font-clash-display">Avion</h1>
           </Link>
           <div className="mx-auto hidden max-w-[60%] lg:block">
@@ -34,10 +30,13 @@ export const Navbar = () => {
 
           <div className="hidden gap-x-4 lg:flex items-center">
             <icons.search className="hidden  cursor-pointer lg:block size-6" />
-            <Link href={"/cart-basket"}>
+            <Link href="/cart-basket">
               <icons.cart className="cursor-pointer size-6" />
             </Link>
-            <icons.user className="size-4 cursor-pointer lg:size-6" />
+
+            <Link href={`${loggedin ? "/profile" : "/sign-up"}`} passHref>
+              <icons.user className="size-4 cursor-pointer lg:size-6" />
+            </Link>
           </div>
 
           <div className="flex gap-x-4 lg:hidden items-center">
@@ -45,7 +44,9 @@ export const Navbar = () => {
             <Link href={"/cart-basket"}>
               <icons.cart className="cursor-pointer size-6" />
             </Link>
-            <icons.menu className="cursor-pointer size-6" />
+            <Link href={`${loggedin ? "/profile" : "/sign-up"}`} passHref>
+              <icons.user className=" cursor-pointer size-6" />
+            </Link>
           </div>
         </div>
       </nav>

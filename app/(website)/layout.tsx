@@ -5,8 +5,10 @@ import NewsLetter from "@/components/news-letter"
 
 export default function WebsiteLayout({
   children,
+  modal,
 }: Readonly<{
   children: React.ReactNode
+  modal: React.ReactNode
 }>) {
   return (
     <html lang="en">
@@ -17,6 +19,7 @@ export default function WebsiteLayout({
         font-satoshi flex min-h-screen flex-col antialiased `}
       >
         <Navbar />
+        {modal}
         {children}
         <NewsLetter />
         <Footer />
