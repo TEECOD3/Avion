@@ -33,8 +33,7 @@ This project is me trying to improve my frontend skills by building a real world
 - [ ] Build menu navigation
 - [ ] Build search modal
 - [ ] Build sign in and Sign up pages
-- [ ] Build Add to order page
-- [ ] miscellaneous -build about page
+- [x] Build Add to order page
 
 ### functionality
 
