@@ -34,7 +34,7 @@ export const Navbar = () => {
               <icons.cart className="cursor-pointer size-6" />
             </Link>
 
-            <Link href={`${loggedin ? "/profile" : "/sign-up"}`} passHref>
+            <Link href={`${loggedin ? "/profile" : "/sign-up"}`}>
               <icons.user className="size-4 cursor-pointer lg:size-6" />
             </Link>
           </div>
@@ -44,7 +44,7 @@ export const Navbar = () => {
             <Link href={"/cart-basket"}>
               <icons.cart className="cursor-pointer size-6" />
             </Link>
-            <Link href={`${loggedin ? "/profile" : "/sign-up"}`} passHref>
+            <Link href={`${loggedin ? "/profile" : "/sign-up"}`}>
               <icons.user className=" cursor-pointer size-6" />
             </Link>
           </div>
