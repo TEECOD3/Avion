@@ -1,10 +1,13 @@
-import React from "react"
-import { redirect } from "next/navigation"
+import ProfileAccount from "@/components/profile-account"
 
 type Props = {}
 
 const page = (props: Props) => {
-  return redirect("/profile/my-avion-account")
+  return (
+    <div>
+      <ProfileAccount />
+    </div>
+  )
 }
 
 export default page

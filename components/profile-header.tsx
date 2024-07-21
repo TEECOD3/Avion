@@ -14,7 +14,7 @@ const ProfileHeader = (props: Props) => {
   let textdesc = "my avion account"
 
   switch (pathname) {
-    case (pathname = "/profile/my-avion-account"):
+    case (pathname = "/profile"):
       currentHeaderDescription = "update your avion profile"
       textdesc = "my avion account"
       break
