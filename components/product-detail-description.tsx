@@ -10,14 +10,18 @@ type Props = {}
 
 const ProductDetailDesc = (props: Props) => {
   return (
-    <div className="flex flex-col gap-y-10">
+    <div className="flex flex-col max-lg:p-4">
       <div className="text-black  font-clash-display">
-        <h3 className="text-header-3 lg:text-header-1">The Dandy Chair</h3>
-        <h5 className="text-header-4 lg:text-header-3">$250</h5>
+        <h3 className="text-xl md:text-header-3 lg:text-header-1">
+          The Dandy Chair
+        </h3>
+        <h5 className="text-xl md:text-header-4 lg:text-header-3">$250</h5>
       </div>
       <div className="space-y-4">
-        <h5 className=" text-black font-clash-display">Description</h5>
-        <p>
+        <h5 className=" text-black font-clash-display max-sm:text-base">
+          Description
+        </h5>
+        <p className="max-sm:text-[14px]">
           A timeless design, with premium materials features as one of our most
           popular and iconic pieces. The dandy chair is perfect for any stylish
           living space with beech legs and lambskin leather upholstery.
@@ -28,7 +32,7 @@ const ProductDetailDesc = (props: Props) => {
           <li>timeless classic</li>
         </ul>
       </div>
-      <div className="font-clash-display capitalize">
+      <div className="font-clash-display capitalize mt-3">
         <h4 className="body-medium font-clash-display mb-4 text-black">
           dimensions
         </h4>
@@ -72,7 +76,7 @@ const ProductDetailDesc = (props: Props) => {
         </div>
       </div>
 
-      <div className="flex gap-x-5 w-1/2">
+      <div className="flex gap-x-5 w-1/2 mt-4">
         <Button
           variant="blue"
           className={cn(

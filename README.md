@@ -23,7 +23,7 @@ This project is me trying to improve my frontend skills by building a real world
 
 ## Roadmap
 
-### Design
+### DesignQQQQQQA1
 
 - [x] Build home page
 - [x] Build Product Detail page

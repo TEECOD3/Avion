@@ -8,7 +8,11 @@ type Props = {}
 const ProductCard = (props: Props) => {
   const productid = "product-id"
   return (
-    <Link href={`/product-details/${productid}`} className="w-full">
+    <Link
+      href={`/product-listing/${productid}`}
+      className="w-full"
+      scroll={false}
+    >
       <div className="w-full h-[288px] lg:h-[462px] group overflow-hidden max-sm:pointer-events-none">
         <Image
           className="h-[201px] lg:h-[375px] group-hover:scale-105 transition-all duration-300 ease-in-out group-hover:brightness-75"

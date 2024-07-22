@@ -6,9 +6,7 @@ import ProductGrid from "@/components/product-grid"
 import ProductMobileFilter from "@/components/product-mobile-filter"
 import ProductSort from "@/components/product-sort"
 
-type Props = {}
-
-const page = (props: Props) => {
+const page = () => {
   return (
     <section>
       <div className="h-[20vh] sm:h-[25vh] lg:h-[30vh] w-full relative">

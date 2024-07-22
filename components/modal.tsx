@@ -12,9 +12,7 @@ type Tmodalprops = {
 export function Modal({ children, open, onOpenChange }: Tmodalprops) {
   return (
     <Dialog open={open} onOpenChange={onOpenChange}>
-      <DialogContent className="max-lg:w-[80%] mx-auto sm:max-w-[500px]">
-        {children}
-      </DialogContent>
+      <DialogContent className="w-screen h-[80vh] ">{children}</DialogContent>
     </Dialog>
   )
 }
