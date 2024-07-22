@@ -9,7 +9,7 @@ const ProductCard = (props: Props) => {
   const productid = "product-id"
   return (
     <Link
-      href={`/product-listing/${productid}`}
+      href={`/product-listing/product/${productid}`}
       className="w-full"
       scroll={false}
     >
