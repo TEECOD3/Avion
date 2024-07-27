@@ -1,10 +1,12 @@
-import React from "react"
-import Link from "next/link"
-
 import SigninForm from "@/components/auth-sign-in-form"
 import { HandWave } from "@/components/custom-icons/wave"
 
 type Props = {}
+
+export const metadata = {
+  title: "Sign in",
+  description: "sign in your avion account",
+}
 
 const page = (props: Props) => {
   return (

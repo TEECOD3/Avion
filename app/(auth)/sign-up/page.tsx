@@ -1,11 +1,11 @@
-import React from "react"
-import Link from "next/link"
-
-import SigninForm from "@/components/auth-sign-in-form"
 import SignUpForm from "@/components/auth-sign-up-form"
-import { HandWave } from "@/components/custom-icons/wave"
 
 type Props = {}
+
+export const metadata = {
+  title: "Sign up",
+  description: "Create An avion Account",
+}
 
 const page = (props: Props) => {
   return (
