@@ -32,7 +32,7 @@ This project is me trying to improve my frontend skills by building a real world
 - [x] profile and setting page
 - [ ] Build menu navigation
 - [ ] Build search modal
-- [ ] Build sign in and Sign up pages
+- [x] Build sign in and Sign up pages
 - [x] Build Add to order page
 
 ### functionality
