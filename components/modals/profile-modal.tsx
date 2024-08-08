@@ -21,7 +21,7 @@ const ProfileModal = (props: Props) => {
 
   return (
     <Modal open onClose={onclose}>
-      <Tabs defaultValue="account" className="w-full">
+      <Tabs defaultValue="account" className="w-full ">
         <TabsList className="w-full mt-4">
           <TabsTrigger value="account" className="w-full font-clash-display">
             Account
@@ -50,7 +50,7 @@ const ProfileModal = (props: Props) => {
           </div>
         </TabsContent>
         <div
-          className="cursor-pointer capitalize text-sm text-muted-foreground flex items-center hover:underline hover:underline-offset-4"
+          className="mt-4 cursor-pointer capitalize text-sm text-muted-foreground flex items-center hover:underline hover:underline-offset-4"
           onClick={() => {
             window.location.reload()
           }}
