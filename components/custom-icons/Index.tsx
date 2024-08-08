@@ -13,6 +13,7 @@ import {
 import CaretDown from "./caret-down"
 import CheckmarkFilled from "./checkmark-filled"
 import CheckmarkOutline from "./checkmark-outlined"
+import { Close } from "./close"
 import { Emptycart } from "./empty-cart"
 import EyeIcon from "./eye-icon"
 import Delivery from "./icon-delivery"
@@ -62,6 +63,7 @@ export const icons = {
   caretdown: CaretDown,
   love: Heart,
   Emptycart,
+  Close,
   gitHub: ({ ...props }: LucideProps) => (
     <svg
       aria-hidden="true"

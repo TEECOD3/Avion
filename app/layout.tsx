@@ -4,9 +4,6 @@ import "./globals.css"
 
 import { siteConfig } from "@/config/site"
 import { ClashDisplay, Satoshi } from "@/lib/Font"
-import { Navbar } from "@/components/Layouts/main-navbar/site-navbar"
-import { Footer } from "@/components/Layouts/site-footer"
-import NewsLetter from "@/components/news-letter"
 
 export const metadata: Metadata = {
   title: {

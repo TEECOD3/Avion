@@ -75,3 +75,11 @@
 .no-visible-scrollbar::-webkit-scrollbar {
   display: none;
 }
+
+.styled-scrollbar::-webkit-scrollbar {
+  @apply w-1;
+}
+
+.styled-scrollbar::-webkit-scrollbar-thumb {
+  @apply bg-gray-400 rounded-full;
+}

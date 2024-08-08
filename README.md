@@ -12,10 +12,8 @@ This project is me trying to improve my frontend skills by building a real world
 - Typescript
 - React-Hook-form
 - Zod
-- Redux
+- Zustand
 - tanstack-react-query
-- json server for mock data
-- json server auth for mock authentication
 
 ## Features
 
@@ -23,25 +21,25 @@ This project is me trying to improve my frontend skills by building a real world
 
 ## Roadmap
 
-### DesignQQQQQQA1
+### Design
 
 - [x] Build home page
 - [x] Build Product Detail page
 - [x] Build shopping baskets
 - [x] Build product listing page
 - [x] profile and setting page
-- [ ] Build menu navigation
-- [ ] Build search modal
+- [x] Build search modal
 - [x] Build sign in and Sign up pages
 - [x] Build Add to order page
+- [ ] Build dynamic categoryfilter pages
 
 ### functionality
 
 - [ ] pagination
-- [ ] Authentication without third party libraries
+- [ ] Authentication
 - [ ] implement general App Search Feature
 - [ ] Cart Logic
-- [ ] category pages
+- [ ] category pages with dynamic route
 - [ ] Advanced Search and filtering
 - [ ] wishList Logic
 - [ ] payment integration using paystack, stripe and flutterwave

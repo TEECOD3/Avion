@@ -1,13 +1,14 @@
 "use client"
 
 import Link from "next/link"
+import { useSearchModal } from "@/stores/modals/search-modal"
 
-// import { useSearchParams } from "next/navigation"
 import { icons } from "@/components/custom-icons/Index"
 
 import FilterNav from "./filter-nav"
 
 export const Navbar = () => {
+  const openModal = useSearchModal((state) => state.open)
   const loggedin = true
   return (
     <>
@@ -29,7 +30,12 @@ export const Navbar = () => {
           </div>
 
           <div className="hidden gap-x-4 lg:flex items-center">
-            <icons.search className="hidden  cursor-pointer lg:block size-6" />
+            <icons.search
+              className="hidden  cursor-pointer lg:block size-6"
+              onClick={() => {
+                openModal()
+              }}
+            />
             <Link href="/cart-basket">
               <icons.cart className="cursor-pointer size-6" />
             </Link>
@@ -40,7 +46,13 @@ export const Navbar = () => {
           </div>
 
           <div className="flex gap-x-4 lg:hidden items-center">
-            <icons.search className=" cursor-pointer size-6" />
+            <icons.search
+              className=" cursor-pointer size-6"
+              onClick={() => {
+                openModal()
+                console.log("yes")
+              }}
+            />
             <Link href={"/cart-basket"}>
               <icons.cart className="cursor-pointer size-6" />
             </Link>
