@@ -20,44 +20,46 @@ const ProfileModal = (props: Props) => {
   const loggedin = true
 
   return (
-    <Modal open onClose={onclose}>
-      <Tabs defaultValue="account" className="w-full ">
-        <TabsList className="w-full mt-4">
-          <TabsTrigger value="account" className="w-full font-clash-display">
-            Account
-          </TabsTrigger>
-          <TabsTrigger value="password" className="w-full font-clash-display">
-            inbox
-          </TabsTrigger>
-        </TabsList>
-        <TabsContent value="account">
-          <div className="py-3 mt-3 flex flex-col gap-y-3">
-            {loggedin ? (
-              <ProfileAccount />
-            ) : (
-              <div>
-                <span className="capitalize font-semibold text-muted-foreground">
-                  login to your avion account
-                </span>
-              </div>
-            )}
+    <Modal open onClose={onclose} className="sm:w-[500px]">
+      <div className="p-3">
+        <Tabs defaultValue="account" className="w-full ">
+          <TabsList className="w-full mt-4">
+            <TabsTrigger value="account" className="w-full font-clash-display">
+              Account
+            </TabsTrigger>
+            <TabsTrigger value="password" className="w-full font-clash-display">
+              inbox
+            </TabsTrigger>
+          </TabsList>
+          <TabsContent value="account">
+            <div className="py-3 mt-3 flex flex-col gap-y-3">
+              {loggedin ? (
+                <ProfileAccount />
+              ) : (
+                <div>
+                  <span className="capitalize font-semibold text-muted-foreground">
+                    login to your avion account
+                  </span>
+                </div>
+              )}
+            </div>
+          </TabsContent>
+          <TabsContent value="password">
+            <div className="py-3 mt-3 flex flex-col gap-y-3">
+              <ProfileInboxwidget />
+              <ProfileInboxwidget />
+            </div>
+          </TabsContent>
+          <div
+            className="mt-4 cursor-pointer capitalize text-sm text-muted-foreground flex items-center hover:underline hover:underline-offset-4"
+            onClick={() => {
+              window.location.reload()
+            }}
+          >
+            <span>view more</span> <icons.ArrowUpRight className="size-4" />
           </div>
-        </TabsContent>
-        <TabsContent value="password">
-          <div className="py-3 mt-3 flex flex-col gap-y-3">
-            <ProfileInboxwidget />
-            <ProfileInboxwidget />
-          </div>
-        </TabsContent>
-        <div
-          className="mt-4 cursor-pointer capitalize text-sm text-muted-foreground flex items-center hover:underline hover:underline-offset-4"
-          onClick={() => {
-            window.location.reload()
-          }}
-        >
-          <span>view more</span> <icons.ArrowUpRight className="size-4" />
-        </div>
-      </Tabs>
+        </Tabs>
+      </div>
     </Modal>
   )
 }

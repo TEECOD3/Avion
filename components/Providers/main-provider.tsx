@@ -1,6 +1,6 @@
 import React, { ReactNode } from "react"
 
-import ModalProvider from "./modals-provider"
+import ModalsProvider from "./modals-provider"
 
 type Props = {
   children: ReactNode
@@ -9,7 +9,7 @@ type Props = {
 function MainProvider({ children }: Props) {
   return (
     <div>
-      <ModalProvider>{children}</ModalProvider>
+      <ModalsProvider>{children}</ModalsProvider>
     </div>
   )
 }

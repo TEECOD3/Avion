@@ -31,20 +31,17 @@ This project is me trying to improve my frontend skills by building a real world
 - [x] Build search modal
 - [x] Build sign in and Sign up pages
 - [x] Build Add to order page
-- [ ] Build dynamic categoryfilter pages
 
 ### functionality
 
 - [ ] pagination
 - [ ] Authentication
-- [ ] implement general App Search Feature
 - [ ] Cart Logic
 - [ ] category pages with dynamic route
 - [ ] Advanced Search and filtering
 - [ ] wishList Logic
 - [ ] payment integration using paystack, stripe and flutterwave
 - [ ] News-Letter Feature
-- [ ] Admin Panel
 
 ## Running Locally
 

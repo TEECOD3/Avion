@@ -6,7 +6,7 @@ type Props = {
   children: ReactNode
 }
 
-function ModalProvider({ children }: Props) {
+function ModalsProvider({ children }: Props) {
   return (
     <div>
       <SearchModal />
@@ -15,4 +15,4 @@ function ModalProvider({ children }: Props) {
   )
 }
 
-export default ModalProvider
+export default ModalsProvider
