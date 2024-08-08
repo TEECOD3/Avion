@@ -20,7 +20,7 @@ const ProfileModal = (props: Props) => {
   const loggedin = true
 
   return (
-    <Modal open onOpenChange={onclose}>
+    <Modal open onClose={onclose}>
       <Tabs defaultValue="account" className="w-full">
         <TabsList className="w-full mt-4">
           <TabsTrigger value="account" className="w-full font-clash-display">
@@ -49,16 +49,15 @@ const ProfileModal = (props: Props) => {
             <ProfileInboxwidget />
           </div>
         </TabsContent>
+        <div
+          className="cursor-pointer capitalize text-sm text-muted-foreground flex items-center hover:underline hover:underline-offset-4"
+          onClick={() => {
+            window.location.reload()
+          }}
+        >
+          <span>view more</span> <icons.ArrowUpRight className="size-4" />
+        </div>
       </Tabs>
-
-      <div
-        className="cursor-pointer capitalize text-sm text-muted-foreground flex items-center hover:underline hover:underline-offset-4"
-        onClick={() => {
-          window.location.reload()
-        }}
-      >
-        <span>view more</span> <icons.ArrowUpRight className="size-4" />
-      </div>
     </Modal>
   )
 }
